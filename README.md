@@ -9,8 +9,6 @@ This project is a beginner-friendly Python implementation that processes ECG sig
 - 🔺 **R-Peak Detection**: Peaks in the ECG waveform are detected to estimate BPM.
 - ⚠️ **Medical Insight**: The analyzed ECG signal frequently displayed a heart rate around **39 BPM**, suggesting **bradycardia** — a condition characterized by an abnormally slow heart rate (typically < 60 BPM).
 
-> ⚠️ *Disclaimer: This project is for educational purposes and should not be used for real medical diagnosis.*
-
 ## 🗃️ Dataset
 
 - Source: [PTB Diagnostic ECG Dataset on Kaggle](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
