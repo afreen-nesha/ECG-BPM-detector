@@ -1,20 +1,20 @@
-# ECG BPM Detector 🫀
+# ECG BPM Detector 
 
 This project is a beginner-friendly Python implementation that processes ECG signals to estimate Beats Per Minute (BPM) using filtering and peak detection. It reads ECG data from a publicly available Kaggle dataset and visualizes key aspects like the raw signal, FFT spectrum, and filtered signal, finally calculating the heart rate.
 
-## 📌 Project Highlights
+## Project Highlights
 
-- 🧠 **Signal Filtering**: Butterworth high-pass and low-pass filters are applied to remove noise.
-- 📉 **Frequency Analysis**: FFT helps inspect noise and dominant frequencies.
-- 🔺 **R-Peak Detection**: Peaks in the ECG waveform are detected to estimate BPM.
-- ⚠️ **Medical Insight**: The analyzed ECG signal frequently displayed a heart rate around **39 BPM**, suggesting **bradycardia** — a condition characterized by an abnormally slow heart rate (typically < 60 BPM).
+ **Signal Filtering**: Butterworth high-pass and low-pass filters are applied to remove noise.
+ **Frequency Analysis**: FFT helps inspect noise and dominant frequencies.
+ **R-Peak Detection**: Peaks in the ECG waveform are detected to estimate BPM.
+ **Medical Insight**: The analyzed ECG signal frequently displayed a heart rate around **39 BPM**, suggesting **bradycardia** — a condition characterized by an abnormally slow heart rate (typically < 60 BPM).
 
-## 🗃️ Dataset
+## Dataset
 
 - Source: [PTB Diagnostic ECG Dataset on Kaggle](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
 - Sample used: `ptdb_abnormal.csv`
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
@@ -32,14 +32,14 @@ This project is a beginner-friendly Python implementation that processes ECG sig
    python finalproject.py
    ```
 
-## 📊 Output Preview
+##  Output Preview
 
 - Raw ECG signal visualization  
 - FFT plot for frequency domain analysis  
 - Filtered ECG signal  
 - R-peak markers with BPM display
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - Python
 - NumPy
@@ -47,10 +47,10 @@ This project is a beginner-friendly Python implementation that processes ECG sig
 - Matplotlib
 - SciPy
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - PTB Diagnostic Dataset authors
 - SciPy documentation & Signal Processing tutorials
 - My learning journey through signal filtering & biomedical data
   
-> Created with curiosity and a heart for learning 🫀
+> Created with curiosity and a heart for learning 
